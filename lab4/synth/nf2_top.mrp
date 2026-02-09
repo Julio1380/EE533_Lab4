@@ -10,7 +10,7 @@ Target Device  : xc2vp50
 Target Package : ff1152
 Target Speed   : -7
 Mapper Version : virtex2p -- $Revision: 1.46.12.2 $
-Mapped Date    : Sat Feb  7 04:19:50 2026
+Mapped Date    : Sun Feb  8 12:58:56 2026
 
 Design Summary
 --------------
@@ -18,15 +18,15 @@ Number of errors:      0
 Number of warnings: 2313
 Logic Utilization:
   Number of Slice Flip Flops:        14,598 out of  47,232   30%
-  Number of 4 input LUTs:            21,871 out of  47,232   46%
+  Number of 4 input LUTs:            21,881 out of  47,232   46%
 Logic Distribution:
-  Number of occupied Slices:         14,875 out of  23,616   62%
-    Number of Slices containing only related logic:  14,875 out of  14,875 100%
-    Number of Slices containing unrelated logic:          0 out of  14,875   0%
+  Number of occupied Slices:         15,463 out of  23,616   65%
+    Number of Slices containing only related logic:  15,463 out of  15,463 100%
+    Number of Slices containing unrelated logic:          0 out of  15,463   0%
       *See NOTES below for an explanation of the effects of unrelated logic.
-  Total Number of 4 input LUTs:      23,120 out of  47,232   48%
-    Number used as logic:            18,787
-    Number used as a route-thru:      1,249
+  Total Number of 4 input LUTs:      23,138 out of  47,232   48%
+    Number used as logic:            18,797
+    Number used as a route-thru:      1,257
     Number used for Dual Port RAMs:   1,964
       (Two LUTs used per Dual Port RAM)
     Number used for 32x1 RAMs:          384
@@ -40,9 +40,9 @@ Logic Distribution:
   Number of DCMs:                         6 out of       8   75%
 
   Number of RPM macros:           25
-Peak Memory Usage:  1814 MB
-Total REAL time to MAP completion:  1 mins 55 secs 
-Total CPU time to MAP completion:   4 mins 27 secs 
+Peak Memory Usage:  1819 MB
+Total REAL time to MAP completion:  2 mins 57 secs 
+Total CPU time to MAP completion:   2 mins 56 secs 
 
 Table of Contents
 -----------------
@@ -3888,57 +3888,57 @@ WARNING:LIT:243 - Logical network
 WARNING:LIT:243 - Logical network
    nf2_core/user_data_path/ids/input_fifo/fifo/Mram_queue72/SPO has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(48) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(48) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(49) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(49) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(50) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(50) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(51) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(51) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(52) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(52) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(53) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(53) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(54) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(54) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(55) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(55) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(56) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(56) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(57) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(57) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(58) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(58) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(59) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(59) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(60) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(60) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(61) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(61) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(62) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(62) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(63) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(63) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(64) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(64) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(65) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(65) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(66) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(66) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(67) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(67) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(68) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(68) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(69) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(69) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(70) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(70) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/matcher/XLXI_16/q(71) has no load.
+   nf2_core/user_data_path/ids/matcher/XLXI_4/q(71) has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/drop_fifo/XLXI_21/CEO has no load.
+   nf2_core/user_data_path/ids/drop_fifo/XLXI_12/CEO has no load.
 WARNING:LIT:243 - Logical network
-   nf2_core/user_data_path/ids/drop_fifo/XLXI_10/CEO has no load.
+   nf2_core/user_data_path/ids/drop_fifo/XLXI_11/CEO has no load.
 WARNING:LIT:243 - Logical network
    nf2_core/cpu_queues[3].cpu_dma_queue_i/cpu_q_dma_rd_rdy has no load.
 WARNING:LIT:243 - Logical network
@@ -5682,7 +5682,7 @@ WARNING:PhysDesignRules:1060 - Dangling pins on
    The block is configured to use input parity pins. There are dangling output
    parity pins.
 WARNING:PhysDesignRules:1060 - Dangling pins on
-   block:<nf2_core/user_data_path/ids/drop_fifo/XLXI_24/B10.B>:<RAMB16_RAMB16B>.
+   block:<nf2_core/user_data_path/ids/drop_fifo/XLXI_20/B10.A>:<RAMB16_RAMB16A>.
     The block is configured to use input parity pins. There are dangling output
    parity pins.
 WARNING:PhysDesignRules:812 - Dangling pin <DOA19> on
@@ -5969,7 +5969,7 @@ WARNING:PhysDesignRules:812 - Dangling pin <DOA31> on
    block:<nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_rd_a
    ddr_reg/ram/Mram_ram.A>:<RAMB16_RAMB16A>.
 WARNING:PhysDesignRules:1060 - Dangling pins on
-   block:<nf2_core/user_data_path/ids/drop_fifo/XLXI_24/B6.B>:<RAMB16_RAMB16B>. 
+   block:<nf2_core/user_data_path/ids/drop_fifo/XLXI_20/B6.A>:<RAMB16_RAMB16A>. 
    The block is configured to use input parity pins. There are dangling output
    parity pins.
 WARNING:PhysDesignRules:1060 - Dangling pins on
@@ -6289,7 +6289,7 @@ Section 4 - Removed Logic Summary
  527 block(s) removed
  353 block(s) optimized away
  547 signal(s) removed
-1317 Block(s) redundant
+1319 Block(s) redundant
 
 Section 5 - Removed Logic
 -------------------------
@@ -8501,69 +8501,69 @@ eg/write_data_b(0)1" (ROM) removed.
 eg/write_data_b(0)" is sourceless and has been removed.
 The signal "nf2_core/user_data_path/ids/input_fifo/fifo/N0" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(48)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(48)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(49)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(49)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(50)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(50)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(51)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(51)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(52)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(52)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(53)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(53)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(54)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(54)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(55)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(55)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(56)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(56)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(57)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(57)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(58)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(58)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(59)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(59)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(60)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(60)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(61)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(61)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(62)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(62)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(63)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(63)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(64)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(64)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(65)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(65)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(66)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(66)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(67)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(67)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(68)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(68)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(69)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(69)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(70)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(70)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_16/q(71)" is sourceless and
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_4/q(71)" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/matcher/XLXI_17/XLXI_26/dummy" is
+The signal "nf2_core/user_data_path/ids/matcher/XLXI_6/XLXI_9/dummy" is
 sourceless and has been removed.
-The signal "nf2_core/user_data_path/ids/drop_fifo/XLXN_25" is sourceless and has
+The signal "nf2_core/user_data_path/ids/drop_fifo/XLXN_33" is sourceless and has
 been removed.
-The signal "nf2_core/user_data_path/ids/drop_fifo/XLXI_21/CEO" is sourceless and
+The signal "nf2_core/user_data_path/ids/drop_fifo/XLXI_12/CEO" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/drop_fifo/XLXI_21/TC" is sourceless and
+The signal "nf2_core/user_data_path/ids/drop_fifo/XLXI_12/TC" is sourceless and
 has been removed.
- Sourceless block "nf2_core/user_data_path/ids/drop_fifo/XLXI_21/I_36_31" (AND)
+ Sourceless block "nf2_core/user_data_path/ids/drop_fifo/XLXI_12/I_36_31" (AND)
 removed.
-The signal "nf2_core/user_data_path/ids/drop_fifo/XLXI_10/CEO" is sourceless and
+The signal "nf2_core/user_data_path/ids/drop_fifo/XLXI_11/CEO" is sourceless and
 has been removed.
-The signal "nf2_core/user_data_path/ids/drop_fifo/XLXI_10/TC" is sourceless and
+The signal "nf2_core/user_data_path/ids/drop_fifo/XLXI_11/TC" is sourceless and
 has been removed.
- Sourceless block "nf2_core/user_data_path/ids/drop_fifo/XLXI_10/I_36_33" (AND)
+ Sourceless block "nf2_core/user_data_path/ids/drop_fifo/XLXI_11/I_36_33" (AND)
 removed.
 The signal
 "nf2_core/cpu_queues[3].cpu_dma_queue_i/cpu_dma_tx_queue/cpu_fifos64.tx_fifo/BU2
@@ -9664,60 +9664,60 @@ Unused block "serial_TXN_0" (PAD) removed.
 Unused block "serial_TXN_1" (PAD) removed.
 Unused block "serial_TXP_0" (PAD) removed.
 Unused block "serial_TXP_1" (PAD) removed.
-Unused block "nf2_core/user_data_path/ids/drop_fifo/XLXI_10/I_36_29" (AND)
+Unused block "nf2_core/user_data_path/ids/drop_fifo/XLXI_11/I_36_29" (AND)
 removed.
-Unused block "nf2_core/user_data_path/ids/drop_fifo/XLXI_21/I_36_1" (AND)
+Unused block "nf2_core/user_data_path/ids/drop_fifo/XLXI_12/I_36_1" (AND)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_11/I_Q0" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_1/I_Q0" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_11/I_Q1" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_1/I_Q1" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_11/I_Q2" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_1/I_Q10" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_11/I_Q3" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_1/I_Q11" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_11/I_Q4" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_1/I_Q12" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_11/I_Q5" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_1/I_Q13" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_11/I_Q6" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_1/I_Q14" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_11/I_Q7" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_1/I_Q15" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_2/I_Q0" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_1/I_Q2" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_2/I_Q1" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_1/I_Q3" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_2/I_Q10" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_1/I_Q4" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_2/I_Q11" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_1/I_Q5" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_2/I_Q12" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_1/I_Q6" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_2/I_Q13" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_1/I_Q7" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_2/I_Q14" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_1/I_Q8" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_2/I_Q15" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_1/I_Q9" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_2/I_Q2" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_5/I_Q0" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_2/I_Q3" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_5/I_Q1" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_2/I_Q4" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_5/I_Q2" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_2/I_Q5" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_5/I_Q3" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_2/I_Q6" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_5/I_Q4" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_2/I_Q7" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_5/I_Q5" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_2/I_Q8" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_5/I_Q6" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_16/XLXI_2/I_Q9" (FF)
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_4/XLXI_5/I_Q7" (FF)
 removed.
-Unused block "nf2_core/user_data_path/ids/matcher/XLXI_17/XLXI_26/XST_GND"
-(ZERO) removed.
+Unused block "nf2_core/user_data_path/ids/matcher/XLXI_6/XLXI_9/XST_GND" (ZERO)
+removed.
 
 Optimized Block(s):
 TYPE 		BLOCK
@@ -9944,6 +9944,15 @@ GND 		nf2_core/unused_reg_core_256kb_0[5]..unused_reg_core_256kb_0_x/XST_GND
 VCC 		nf2_core/unused_reg_core_256kb_0[5]..unused_reg_core_256kb_0_x/XST_VCC
 GND 		nf2_core/unused_reg_core_4mb_0/XST_GND
 VCC 		nf2_core/unused_reg_core_4mb_0/XST_VCC
+GND 		nf2_core/user_data_path/ids/XST_GND
+VCC 		nf2_core/user_data_path/ids/XST_VCC
+GND 		nf2_core/user_data_path/ids/input_fifo/fifo/XST_GND
+GND 		nf2_core/user_data_path/ids/module_regs/.generic_hw_regs/XST_GND
+VCC 		nf2_core/user_data_path/ids/module_regs/.generic_hw_regs/XST_VCC
+GND 		nf2_core/user_data_path/ids/module_regs/.generic_sw_regs/XST_GND
+VCC 		nf2_core/user_data_path/ids/module_regs/.generic_sw_regs/XST_VCC
+GND 		nf2_core/user_data_path/ids/module_regs/XST_GND
+VCC 		nf2_core/user_data_path/ids/module_regs/XST_VCC
 GND 		nf2_core/user_data_path/input_arbiter/in_arb_queues[0].in_arb_fifo/XST_GND
 GND 		nf2_core/user_data_path/input_arbiter/in_arb_queues[1].in_arb_fifo/XST_GND
 GND 		nf2_core/user_data_path/input_arbiter/in_arb_queues[2].in_arb_fifo/XST_GND
@@ -10285,20 +10294,11 @@ VCC
 .gmac_tx_fifo/BU2/XST_VCC
 GND 		nf2_core/user_data_path/output_queues/store_pkt/XST_GND
 VCC 		nf2_core/user_data_path/output_queues/store_pkt/XST_VCC
-GND 		nf2_core/user_data_path/ids/XST_GND
-VCC 		nf2_core/user_data_path/ids/XST_VCC
-VCC 		nf2_core/user_data_path/ids/drop_fifo/XLXI_10/I_36_12
-VCC 		nf2_core/user_data_path/ids/drop_fifo/XLXI_20
-VCC 		nf2_core/user_data_path/ids/drop_fifo/XLXI_21/I_36_16
-GND 		nf2_core/user_data_path/ids/drop_fifo/XLXI_24/GND
-VCC 		nf2_core/user_data_path/ids/drop_fifo/XLXI_24/VCC
-GND 		nf2_core/user_data_path/ids/input_fifo/fifo/XST_GND
-GND 		nf2_core/user_data_path/ids/module_regs/.generic_hw_regs/XST_GND
-VCC 		nf2_core/user_data_path/ids/module_regs/.generic_hw_regs/XST_VCC
-GND 		nf2_core/user_data_path/ids/module_regs/.generic_sw_regs/XST_GND
-VCC 		nf2_core/user_data_path/ids/module_regs/.generic_sw_regs/XST_VCC
-GND 		nf2_core/user_data_path/ids/module_regs/XST_GND
-VCC 		nf2_core/user_data_path/ids/module_regs/XST_VCC
+VCC 		nf2_core/user_data_path/ids/drop_fifo/XLXI_11/I_36_12
+VCC 		nf2_core/user_data_path/ids/drop_fifo/XLXI_12/I_36_16
+VCC 		nf2_core/user_data_path/ids/drop_fifo/XLXI_18
+GND 		nf2_core/user_data_path/ids/drop_fifo/XLXI_20/GND
+VCC 		nf2_core/user_data_path/ids/drop_fifo/XLXI_20/VCC
 MUXCY
 		nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_overhead_by
 tes_removed_reg/Madd_curr_plus_new_a_cy(0)
@@ -11344,6 +11344,9 @@ INV
 _depth_xor(0)11_INV_0
 INV 		nf2_core/user_data_path/output_queues/oq_header_parser/dst_oq_avail1_INV_0
 INV
+		nf2_core/user_data_path/output_queues/oq_header_parser/header_parser_rdy1_INV_
+0
+INV
 		nf2_core/user_data_path/output_queues/oq_regs/oq_regs_ctrl/Mcount_reg_cnt_xor(
 0)11_INV_0
 INV
@@ -11369,6 +11372,7 @@ reg/wr_update_a_inv1_INV_0
 INV 		nf2_core/user_data_path/ids/input_fifo/fifo/Mcount_wr_ptr_xor(0)11_INV_0
 INV 		nf2_core/user_data_path/ids/input_fifo/fifo/Mcount_rd_ptr_xor(0)11_INV_0
 INV 		nf2_core/user_data_path/ids/input_fifo/fifo/Mcount_depth_xor(0)11_INV_0
+LUT1 		nf2_core/user_data_path/ids/module_regs/reg_ack_out_and0000_wg_cy(0)_rt
 LUT1 		nf2_core/user_data_path/ids/Madd_matches_next_addsub0000_cy(1)_rt
 LUT1 		nf2_core/user_data_path/ids/Madd_matches_next_addsub0000_cy(2)_rt
 LUT1 		nf2_core/user_data_path/ids/Madd_matches_next_addsub0000_cy(3)_rt
@@ -13988,8 +13992,8 @@ d_reg/wr_update_b_or00001
 LUT4
 		nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_pkts_stored
 _reg/wr_update_b_or00001
-XOR2 		nf2_core/user_data_path/ids/drop_fifo/XLXI_21/I_Q0/I_36_32
-XOR2 		nf2_core/user_data_path/ids/drop_fifo/XLXI_10/I_Q0/I_36_32
+XOR2 		nf2_core/user_data_path/ids/drop_fifo/XLXI_12/I_Q0/I_36_32
+XOR2 		nf2_core/user_data_path/ids/drop_fifo/XLXI_11/I_Q0/I_36_32
 MUXCY
 		nf2_core/cpu_queues[0].cpu_dma_queue_i/cpu_dma_rx_queue/cpu_fifos64.rx_fifo/BU
 2/U0/grf.rf/gl0.wr/gwas.gpf.wrpf/Madd_diff_pntr_pad_add0000_cy<0>
@@ -14674,36 +14678,36 @@ Section 6 - IOB Properties
 
 Section 7 - RPMs
 ----------------
-nf2_core/user_data_path/ids/drop_fifo/XLXI_10/XLXI_10_I_Q0_9
-nf2_core/user_data_path/ids/drop_fifo/XLXI_10/XLXI_10_I_Q1_10
-nf2_core/user_data_path/ids/drop_fifo/XLXI_10/XLXI_10_I_Q2_11
-nf2_core/user_data_path/ids/drop_fifo/XLXI_10/XLXI_10_I_Q3_12
-nf2_core/user_data_path/ids/drop_fifo/XLXI_10/XLXI_10_I_Q4_13
-nf2_core/user_data_path/ids/drop_fifo/XLXI_10/XLXI_10_I_Q5_14
-nf2_core/user_data_path/ids/drop_fifo/XLXI_10/XLXI_10_I_Q6_15
-nf2_core/user_data_path/ids/drop_fifo/XLXI_10/XLXI_10_I_Q7_16
-nf2_core/user_data_path/ids/drop_fifo/XLXI_21/XLXI_21_I_Q0_6
-nf2_core/user_data_path/ids/drop_fifo/XLXI_21/XLXI_21_I_Q1_7
-nf2_core/user_data_path/ids/drop_fifo/XLXI_21/XLXI_21_I_Q2_3
-nf2_core/user_data_path/ids/drop_fifo/XLXI_21/XLXI_21_I_Q3_4
-nf2_core/user_data_path/ids/drop_fifo/XLXI_21/XLXI_21_I_Q4_5
-nf2_core/user_data_path/ids/drop_fifo/XLXI_21/XLXI_21_I_Q5_2
-nf2_core/user_data_path/ids/drop_fifo/XLXI_21/XLXI_21_I_Q6_1
-nf2_core/user_data_path/ids/drop_fifo/XLXI_21/XLXI_21_I_Q7_0
-nf2_core/user_data_path/ids/matcher/XLXI_17/XLXI_1/XLXI_1_XLXI_15_0
-nf2_core/user_data_path/ids/matcher/XLXI_17/XLXI_17_XLXI_26_0
-nf2_core/user_data_path/ids/matcher/XLXI_17/XLXI_2/XLXI_2_XLXI_15_0
-nf2_core/user_data_path/ids/matcher/XLXI_17/XLXI_3/XLXI_3_XLXI_15_0
-nf2_core/user_data_path/ids/matcher/XLXI_17/XLXI_4/XLXI_4_XLXI_15_0
-nf2_core/user_data_path/ids/matcher/XLXI_17/XLXI_5/XLXI_5_XLXI_15_0
-nf2_core/user_data_path/ids/matcher/XLXI_17/XLXI_6/XLXI_6_XLXI_15_0
-nf2_core/user_data_path/ids/matcher/XLXI_17/XLXI_7/XLXI_7_XLXI_15_0
-nf2_core/user_data_path/ids/matcher/XLXI_17/XLXI_8/XLXI_8_XLXI_15_0
+nf2_core/user_data_path/ids/drop_fifo/XLXI_11/XLXI_11_I_Q0_9
+nf2_core/user_data_path/ids/drop_fifo/XLXI_11/XLXI_11_I_Q1_10
+nf2_core/user_data_path/ids/drop_fifo/XLXI_11/XLXI_11_I_Q2_11
+nf2_core/user_data_path/ids/drop_fifo/XLXI_11/XLXI_11_I_Q3_12
+nf2_core/user_data_path/ids/drop_fifo/XLXI_11/XLXI_11_I_Q4_13
+nf2_core/user_data_path/ids/drop_fifo/XLXI_11/XLXI_11_I_Q5_14
+nf2_core/user_data_path/ids/drop_fifo/XLXI_11/XLXI_11_I_Q6_15
+nf2_core/user_data_path/ids/drop_fifo/XLXI_11/XLXI_11_I_Q7_16
+nf2_core/user_data_path/ids/drop_fifo/XLXI_12/XLXI_12_I_Q0_6
+nf2_core/user_data_path/ids/drop_fifo/XLXI_12/XLXI_12_I_Q1_7
+nf2_core/user_data_path/ids/drop_fifo/XLXI_12/XLXI_12_I_Q2_3
+nf2_core/user_data_path/ids/drop_fifo/XLXI_12/XLXI_12_I_Q3_4
+nf2_core/user_data_path/ids/drop_fifo/XLXI_12/XLXI_12_I_Q4_5
+nf2_core/user_data_path/ids/drop_fifo/XLXI_12/XLXI_12_I_Q5_2
+nf2_core/user_data_path/ids/drop_fifo/XLXI_12/XLXI_12_I_Q6_1
+nf2_core/user_data_path/ids/drop_fifo/XLXI_12/XLXI_12_I_Q7_0
+nf2_core/user_data_path/ids/matcher/XLXI_6/XLXI_1/XLXI_1_XLXI_22_0
+nf2_core/user_data_path/ids/matcher/XLXI_6/XLXI_2/XLXI_2_XLXI_22_0
+nf2_core/user_data_path/ids/matcher/XLXI_6/XLXI_3/XLXI_3_XLXI_22_0
+nf2_core/user_data_path/ids/matcher/XLXI_6/XLXI_4/XLXI_4_XLXI_22_0
+nf2_core/user_data_path/ids/matcher/XLXI_6/XLXI_5/XLXI_5_XLXI_22_0
+nf2_core/user_data_path/ids/matcher/XLXI_6/XLXI_6/XLXI_6_XLXI_22_0
+nf2_core/user_data_path/ids/matcher/XLXI_6/XLXI_6_XLXI_9_0
+nf2_core/user_data_path/ids/matcher/XLXI_6/XLXI_7/XLXI_7_XLXI_22_0
+nf2_core/user_data_path/ids/matcher/XLXI_6/XLXI_8/XLXI_8_XLXI_22_0
 
 Section 8 - Guide Report
 ------------------------
 
-Sat Feb 07 04:21:37 2026
+Sun Feb 08 13:01:40 2026
 
   Estimated SmartGuide Results
   ----------------------------
@@ -14711,11 +14715,11 @@ Sat Feb 07 04:21:37 2026
   components are components that were guided, but moved in order to satisfy
   timing requirements.
 
-    Estimated Percentage of guided Components                 |  86.5%
-    Estimated Percentage of re-implemented Components         |   6.9%
-    Estimated Percentage of new/changed Components            |   6.6%
-    Estimated Percentage of fully guided Nets                 |  77.3%
-    Estimated Percentage of partially guided or unrouted Nets |  22.7%
+    Estimated Percentage of guided Components                 |  98.1%
+    Estimated Percentage of re-implemented Components         |   0.0%
+    Estimated Percentage of new/changed Components            |   1.9%
+    Estimated Percentage of fully guided Nets                 |  95.6%
+    Estimated Percentage of partially guided or unrouted Nets |   4.4%
 
   A detailed SmartGuide report (.GRF) can be generated during PAR by
   specifying the [-smartguide <guidefile[.ncd]>] switch on the PAR
@@ -19628,7 +19632,7 @@ INIT_B = 000000000
 SRVAL_B = 000000000
 
 
-RAMB16 "nf2_core/user_data_path/ids/drop_fifo/XLXI_24/B10":
+RAMB16 "nf2_core/user_data_path/ids/drop_fifo/XLXI_20/B10":
 INITP_00 = 0000000000000000000000000000000000000000000000000000000000000000
 INITP_01 = 0000000000000000000000000000000000000000000000000000000000000000
 INITP_02 = 0000000000000000000000000000000000000000000000000000000000000000
@@ -19711,7 +19715,7 @@ INIT_B = 000000000
 SRVAL_B = 000000000
 
 
-RAMB16 "nf2_core/user_data_path/ids/drop_fifo/XLXI_24/B6":
+RAMB16 "nf2_core/user_data_path/ids/drop_fifo/XLXI_20/B6":
 INITP_00 = 0000000000000000000000000000000000000000000000000000000000000000
 INITP_01 = 0000000000000000000000000000000000000000000000000000000000000000
 INITP_02 = 0000000000000000000000000000000000000000000000000000000000000000

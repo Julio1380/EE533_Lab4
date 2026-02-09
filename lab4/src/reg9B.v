@@ -7,11 +7,11 @@
 // \   \   \/     Version : 10.1
 //  \   \         Application : sch2verilog
 //  /   /         Filename : reg9B.vf
-// /___/   /\     Timestamp : 02/03/2026 18:42:31
+// /___/   /\     Timestamp : 01/31/2026 14:12:58
 // \   \  /  \ 
 //  \___\/\___\ 
 //
-//Command: C:\Xilinx\10.1\ISE\bin\nt\unwrapped\sch2verilog.exe -intstyle ise -family virtex2p -w Z:/533_lab3/mini_idstest/reg9B.sch reg9B.vf
+//Command: C:\Xilinx\10.1\ISE\bin\nt\unwrapped\sch2verilog.exe -intstyle ise -family virtex2p -w "C:/Documents and Settings/student/Adder/Lab2/Lab3/reg9B.sch" reg9B.vf
 //Design Name: reg9B
 //Device: virtex2p
 //Purpose:
@@ -209,34 +209,34 @@ module reg9B(ce,
    output [71:0] q;
    
    
-   FD16CE_MXILINX_reg9B XLXI_2 (.C(clk), 
+   FD16CE_MXILINX_reg9B XLXI_1 (.C(clk), 
                                 .CE(ce), 
                                 .CLR(clr), 
                                 .D(d[63:48]), 
                                 .Q(q[63:48]));
-   // synthesis attribute HU_SET of XLXI_2 is "XLXI_2_0"
-   FD16CE_MXILINX_reg9B XLXI_3 (.C(clk), 
+   // synthesis attribute HU_SET of XLXI_1 is "XLXI_1_0"
+   FD16CE_MXILINX_reg9B XLXI_2 (.C(clk), 
                                 .CE(ce), 
                                 .CLR(clr), 
                                 .D(d[47:32]), 
                                 .Q(q[47:32]));
-   // synthesis attribute HU_SET of XLXI_3 is "XLXI_3_2"
-   FD16CE_MXILINX_reg9B XLXI_4 (.C(clk), 
+   // synthesis attribute HU_SET of XLXI_2 is "XLXI_2_1"
+   FD16CE_MXILINX_reg9B XLXI_3 (.C(clk), 
                                 .CE(ce), 
                                 .CLR(clr), 
                                 .D(d[31:16]), 
                                 .Q(q[31:16]));
-   // synthesis attribute HU_SET of XLXI_4 is "XLXI_4_3"
-   FD16CE_MXILINX_reg9B XLXI_5 (.C(clk), 
+   // synthesis attribute HU_SET of XLXI_3 is "XLXI_3_2"
+   FD16CE_MXILINX_reg9B XLXI_4 (.C(clk), 
                                 .CE(ce), 
                                 .CLR(clr), 
                                 .D(d[15:0]), 
                                 .Q(q[15:0]));
-   // synthesis attribute HU_SET of XLXI_5 is "XLXI_5_1"
-   FD8CE_MXILINX_reg9B XLXI_11 (.C(clk), 
-                                .CE(ce), 
-                                .CLR(clr), 
-                                .D(d[71:64]), 
-                                .Q(q[71:64]));
-   // synthesis attribute HU_SET of XLXI_11 is "XLXI_11_4"
+   // synthesis attribute HU_SET of XLXI_4 is "XLXI_4_3"
+   FD8CE_MXILINX_reg9B XLXI_5 (.C(clk), 
+                               .CE(ce), 
+                               .CLR(clr), 
+                               .D(d[71:64]), 
+                               .Q(q[71:64]));
+   // synthesis attribute HU_SET of XLXI_5 is "XLXI_5_4"
 endmodule

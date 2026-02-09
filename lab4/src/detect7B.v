@@ -7,11 +7,11 @@
 // \   \   \/     Version : 10.1
 //  \   \         Application : sch2verilog
 //  /   /         Filename : detect7B.vf
-// /___/   /\     Timestamp : 02/03/2026 18:42:28
+// /___/   /\     Timestamp : 01/31/2026 18:25:01
 // \   \  /  \ 
 //  \___\/\___\ 
 //
-//Command: C:\Xilinx\10.1\ISE\bin\nt\unwrapped\sch2verilog.exe -intstyle ise -family virtex2p -w Z:/533_lab3/mini_idstest/detect7B.sch detect7B.vf
+//Command: C:\Xilinx\10.1\ISE\bin\nt\unwrapped\sch2verilog.exe -intstyle ise -family virtex2p -w "C:/Documents and Settings/student/Adder/Lab2/Lab3/detect7B.sch" detect7B.vf
 //Design Name: detect7B
 //Device: virtex2p
 //Purpose:
@@ -37,37 +37,37 @@ module detect7B(ce,
    output match;
    
    wire [71:0] pipe0;
-   wire [111:0] XLXN_43;
-   wire XLXN_49;
-   wire XLXN_52;
-   wire XLXN_55;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire [111:0] XLXN_14;
+   wire XLXN_22;
    wire match_DUMMY;
    
    assign match = match_DUMMY;
-   AND3B1 XLXI_12 (.I0(match_DUMMY), 
-                   .I1(match_en), 
-                   .I2(XLXN_49), 
-                   .O(XLXN_52));
+   reg9B XLXI_4 (.ce(ce), 
+                 .clk(clk), 
+                 .clr(XLXN_22), 
+                 .d(pipe1[71:0]), 
+                 .q(pipe0[71:0]));
+   busmerge XLXI_5 (.da(pipe0[47:0]), 
+                    .db(pipe1[63:0]), 
+                    .q(XLXN_14[111:0]));
+   wordmatch XLXI_6 (.datacomp(hwregA[55:0]), 
+                     .datain(XLXN_14[111:0]), 
+                     .wildcard(hwregA[62:56]), 
+                     .match(XLXN_4));
    FDCE XLXI_13 (.C(clk), 
-                 .CE(XLXN_52), 
-                 .CLR(XLXN_55), 
-                 .D(XLXN_52), 
+                 .CE(XLXN_3), 
+                 .CLR(XLXN_22), 
+                 .D(XLXN_3), 
                  .Q(match_DUMMY));
    defparam XLXI_13.INIT = 1'b0;
    FD XLXI_14 (.C(clk), 
                .D(mrst), 
-               .Q(XLXN_55));
+               .Q(XLXN_22));
    defparam XLXI_14.INIT = 1'b0;
-   busmerge XLXI_15 (.da(pipe0[47:0]), 
-                     .db(pipe1[63:0]), 
-                     .q(XLXN_43[111:0]));
-   reg9B XLXI_16 (.ce(ce), 
-                  .clk(clk), 
-                  .clr(XLXN_55), 
-                  .d(pipe1[71:0]), 
-                  .q(pipe0[71:0]));
-   wordmatch XLXI_17 (.datacomp(hwregA[55:0]), 
-                      .datain(XLXN_43[111:0]), 
-                      .wildcard(hwregA[62:56]), 
-                      .match(XLXN_49));
+   AND3B1 XLXI_18 (.I0(match_DUMMY), 
+                   .I1(match_en), 
+                   .I2(XLXN_4), 
+                   .O(XLXN_3));
 endmodule

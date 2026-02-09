@@ -7,11 +7,11 @@
 // \   \   \/     Version : 10.1
 //  \   \         Application : sch2verilog
 //  /   /         Filename : wordmatch.vf
-// /___/   /\     Timestamp : 02/03/2026 18:42:32
+// /___/   /\     Timestamp : 01/31/2026 14:12:55
 // \   \  /  \ 
 //  \___\/\___\ 
 //
-//Command: C:\Xilinx\10.1\ISE\bin\nt\unwrapped\sch2verilog.exe -intstyle ise -family virtex2p -w Z:/533_lab3/mini_idstest/wordmatch.sch wordmatch.vf
+//Command: C:\Xilinx\10.1\ISE\bin\nt\unwrapped\sch2verilog.exe -intstyle ise -family virtex2p -w "C:/Documents and Settings/student/Adder/Lab2/Lab3/wordmatch.sch" wordmatch.vf
 //Design Name: wordmatch
 //Device: virtex2p
 //Purpose:
@@ -90,55 +90,55 @@ module wordmatch(datacomp,
     input [6:0] wildcard;
    output match;
    
-   wire XLXN_26;
-   wire XLXN_27;
+   wire XLXN_4;
+   wire XLXN_8;
+   wire XLXN_12;
+   wire XLXN_24;
    wire XLXN_28;
-   wire XLXN_29;
-   wire XLXN_30;
-   wire XLXN_31;
    wire XLXN_32;
-   wire XLXN_33;
+   wire XLXN_34;
+   wire XLXN_35;
    
    comparator XLXI_1 (.a(datacomp[55:0]), 
                       .amask(wildcard[6:0]), 
                       .b(datain[55:0]), 
-                      .match(XLXN_33));
+                      .match(XLXN_4));
    comparator XLXI_2 (.a(datacomp[55:0]), 
                       .amask(wildcard[6:0]), 
                       .b(datain[63:8]), 
-                      .match(XLXN_32));
+                      .match(XLXN_8));
    comparator XLXI_3 (.a(datacomp[55:0]), 
                       .amask(wildcard[6:0]), 
                       .b(datain[71:16]), 
-                      .match(XLXN_31));
+                      .match(XLXN_12));
    comparator XLXI_4 (.a(datacomp[55:0]), 
                       .amask(wildcard[6:0]), 
                       .b(datain[79:24]), 
-                      .match(XLXN_30));
+                      .match(XLXN_34));
    comparator XLXI_5 (.a(datacomp[55:0]), 
                       .amask(wildcard[6:0]), 
                       .b(datain[87:32]), 
-                      .match(XLXN_29));
+                      .match(XLXN_35));
    comparator XLXI_6 (.a(datacomp[55:0]), 
                       .amask(wildcard[6:0]), 
                       .b(datain[95:40]), 
-                      .match(XLXN_28));
+                      .match(XLXN_24));
    comparator XLXI_7 (.a(datacomp[55:0]), 
                       .amask(wildcard[6:0]), 
                       .b(datain[103:48]), 
-                      .match(XLXN_27));
+                      .match(XLXN_28));
    comparator XLXI_8 (.a(datacomp[55:0]), 
                       .amask(wildcard[6:0]), 
                       .b(datain[111:56]), 
-                      .match(XLXN_26));
-   OR8_MXILINX_wordmatch XLXI_26 (.I0(XLXN_26), 
-                                  .I1(XLXN_27), 
-                                  .I2(XLXN_28), 
-                                  .I3(XLXN_29), 
-                                  .I4(XLXN_30), 
-                                  .I5(XLXN_31), 
-                                  .I6(XLXN_32), 
-                                  .I7(XLXN_33), 
-                                  .O(match));
-   // synthesis attribute HU_SET of XLXI_26 is "XLXI_26_0"
+                      .match(XLXN_32));
+   OR8_MXILINX_wordmatch XLXI_9 (.I0(XLXN_32), 
+                                 .I1(XLXN_28), 
+                                 .I2(XLXN_24), 
+                                 .I3(XLXN_35), 
+                                 .I4(XLXN_34), 
+                                 .I5(XLXN_12), 
+                                 .I6(XLXN_8), 
+                                 .I7(XLXN_4), 
+                                 .O(match));
+   // synthesis attribute HU_SET of XLXI_9 is "XLXI_9_0"
 endmodule

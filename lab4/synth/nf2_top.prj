@@ -5,13 +5,12 @@ verilog work ../include/registers.v
 verilog work ../src/detect7B.v
 verilog work ../src/comparator.v
 verilog work ../src/busmerge.v
-verilog work ../src/comp8.v
 verilog work ../src/wordmatch.v
-verilog work ../src/fifomem.v
 verilog work ../src/dropfifo.v
 verilog work ../src/ids.v
 verilog work ../src/reg9B.v
 verilog work ../src/user_data_path.v
+verilog work ../src/src_coregen/dual9Bmem.v
 verilog work /root/netfpga/lib/verilog/core/io_queues/cpu_dma_queue/src/cpu_dma_queue_regs.v
 verilog work /root/netfpga/lib/verilog/core/io_queues/cpu_dma_queue/src/cpu_dma_queue.v
 verilog work /root/netfpga/lib/verilog/core/io_queues/cpu_dma_queue/src/cpu_dma_rx_queue.v
@@ -21,6 +20,11 @@ verilog work /root/netfpga/lib/verilog/core/io_queues/ethernet_queue/src/nf2_mac
 verilog work /root/netfpga/lib/verilog/core/io_queues/ethernet_queue/src/mac_grp_regs.v
 verilog work /root/netfpga/lib/verilog/core/io_queues/ethernet_queue/src/rx_queue.v
 verilog work /root/netfpga/lib/verilog/core/io_queues/ethernet_queue/src/tx_queue.v
+verilog work /root/netfpga/lib/verilog/contrib/ucsd/gig_eth_mac/src/gig_eth_mac_tx.v
+verilog work /root/netfpga/lib/verilog/contrib/ucsd/gig_eth_mac/src/CRC_gen.v
+verilog work /root/netfpga/lib/verilog/contrib/ucsd/gig_eth_mac/src/CRC_chk.v
+verilog work /root/netfpga/lib/verilog/contrib/ucsd/gig_eth_mac/src/gig_eth_mac.v
+verilog work /root/netfpga/lib/verilog/contrib/ucsd/gig_eth_mac/src/gig_eth_mac_rx.v
 verilog work /root/netfpga/lib/verilog/core/input_arbiter/rr_input_arbiter/src/in_arb_regs.v
 verilog work /root/netfpga/lib/verilog/core/input_arbiter/rr_input_arbiter/src/input_arbiter.v
 verilog work /root/netfpga/lib/verilog/core/nf2/generic_top/src/rgmii_io.v
@@ -69,6 +73,7 @@ verilog work /root/netfpga/lib/verilog/core/user_data_path/udp_reg_master/src/ud
 verilog work /root/netfpga/lib/verilog/core/io_queues/add_rm_hdr/src/add_hdr.v
 verilog work /root/netfpga/lib/verilog/core/io_queues/add_rm_hdr/src/add_rm_hdr.v
 verilog work /root/netfpga/lib/verilog/core/io_queues/add_rm_hdr/src/rm_hdr.v
+verilog work /root/netfpga/lib/verilog/core/strip_headers/keep_length/src/strip_headers.v
 verilog work /root/netfpga/lib/verilog/core/utils/src/fallthrough_small_fifo_v2.v
 verilog work /root/netfpga/lib/verilog/core/utils/src/small_fifo_v2.v
 verilog work /root/netfpga/lib/verilog/core/utils/src/rotate.v
